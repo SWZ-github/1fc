@@ -2,11 +2,11 @@
 
 ## What is this?
 
-This is a usefull tool for compiling html, css and javascript into one html file. I could not find something like this so i made it myself.
+This is a useful tool for compiling html, css and javascript into one html file. I could not find something like this so I made it myself.
 
 ## Why?
 
-I created this because i wanted a user to be able to open one html file and view a website without loading content from the internet or other local files.
+I created this because I wanted a user to be able to open one html file and view a website without loading content from the internet or other local files.
 
 ## CAUTION
 
@@ -18,11 +18,11 @@ I created this because i wanted a user to be able to open one html file and view
 
 `npm i -g 1filecompiler` for CLI
 
-`npm i --save-dev 1filecompiler` for api
+`npm i --save-dev 1filecompiler` for API
 
 ## CLI
 
-The cli is easy
+The CLI is easy
 
 `npx 1fc input.html output.html`
 
