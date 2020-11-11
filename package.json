@@ -1,0 +1,20 @@
+{
+  "name": "1filecompiler",
+  "version": "0.0.1",
+  "description": "Compiles linked css and javascript files into one html file",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon test/test",
+    "clitest": "node cli.js"
+  },
+  "bin": {
+    "1fc": "cli.js"
+  },
+  "author": "Simon Lindgren",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "jsdom": "^16.4.0",
+    "uglify-es": "^3.3.9"
+  }
+}
